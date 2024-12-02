@@ -1,0 +1,152 @@
+header {
+    background-image: url('srcTourForColombiaWeb/indexHead.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    color: rgb(6, 227, 39);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    font-size: 70px;
+    font-family: Blackadder ITC;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #4bdef5;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    width: 80%;
+  }
+  
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 12px 12px;
+    background-color: #610d0d;
+    color: #fef8f8;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav a:hover {
+    transform: scale(1.1);
+  }
+  
+main {
+    padding: 20px;
+}
+
+.muteSantandereano {
+    display: block;
+    margin: 0 auto;
+}
+
+.cabritoSantandereano{
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+    
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+.home-header {
+    background-image: url('srcTourForColombiaWeb/learningEnglish.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.historia {
+    background-image: url('srcTourForColombiaWeb/historia.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+  }
+
+  .sidebar {
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    width: 300px;
+    height: 200px;
+  }
+  .sidebar li {
+    margin-bottom: 10px; /* Añade 10 píxeles de margen inferior a cada elemento de la lista */
+  }
+  .sidebar ul {
+    list-style: none;
+  }
+  .sidebar a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333; /* Cambia el color del texto a un gris oscuro */
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline; /* Agrega un subrayado al pasar el ratón */
+    color: #007bff; /* Cambia el color del texto al pasar el ratón */
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .articlehistori {
+    width: 70%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+  }
+
+  .articleIndex {
+    width: 70%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+  }
+
+
